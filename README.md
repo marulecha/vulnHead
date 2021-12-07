@@ -1,2 +1,2 @@
 # vulnHead
-Web Application and API Response Header Check.
+Web Application and API Response Header Checker.
