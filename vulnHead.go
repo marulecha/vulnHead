@@ -20,7 +20,7 @@ func contains(s []string, e string) bool {
 func main() {
 
 	color.Cyan.Println("\n              :|      ::| ::|::::::| ::::\\ ::::::\n    :\\:| :\\:| :| :::\\ ::::::|:::>   ::|,::|::| ::|\n     :/  `::| :| :|:| ::| ::|::::::|::| ::|::::::/\n\n")
-	targetUrlFlag := flag.String("u", "https://google.com", "Target URL, -u http(s)://<IP>:<PORT> ")
+	targetUrlFlag := flag.String("u", "http://127.0.0.1", "Target URL, -u http(s)://<IP>:<PORT> ")
 	flag.Parse()
 
 	resp, err := http.Get(*targetUrlFlag)
